@@ -1,0 +1,20 @@
+{
+  "name": "alpha",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "eslint-config-custom": "*",
+    "tsconfig": "*",
+    "rimraf": "^4.1.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "packageManager": "pnpm@7.25.0"
+}

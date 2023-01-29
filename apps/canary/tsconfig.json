@@ -1,0 +1,17 @@
+{
+  "extends": "tsconfig/base.json",
+  "include": [
+    "./src/**/*.ts",
+  ],
+  "exclude": ["./turbo", "./coverage"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "paths": {
+      "~/src/*": ["/src/*"],
+      "~/database/*": ["/src/db/*"]
+    }
+  }
+}
