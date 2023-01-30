@@ -10,8 +10,8 @@
     "outDir": "./dist",
     "module": "CommonJS",
     "paths": {
-      "~/src/*": ["./src/*"],
-      "~/database/*": ["./src/db/*"]
+      "~src/*": ["./src/*"],
+      "~database/*": ["./src/db/*"]
     }
   }
 }
