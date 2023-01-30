@@ -1,3 +1,3 @@
-import { dbConnection } from '~/database/instance';
+import { dbConnection } from '~database/instance';
 
 console.log(dbConnection);
